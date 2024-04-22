@@ -20,13 +20,10 @@ nav ul {
 }
 main {
     text-align: left;
-    /*display: grid;
-    grid-template-columns:(3,1fr);
-    grid-template-rows:(1,1fr);*/
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap:0px;
-  grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0px;
+    grid-auto-rows: minmax(100px, auto);
     background-color: #782221 ;
     border: 8px solid black;
 }
@@ -42,8 +39,12 @@ main {
     background-color: white;
     border: 8px solid black;
 }
+
 footer{
     padding: 1%;
     background-color: #782221 ;
     border: 8px solid black;
+}
+#photo{
+    clip-path:ellipse(50% 50%);
 }
