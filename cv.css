@@ -5,6 +5,7 @@ body{
     color: white;
     width: 1160px;
     margin:auto;
+    font-family: "Lato" ;
 }
 header{
     background-color: #782221 ;
@@ -28,10 +29,14 @@ main {
     grid-auto-rows: minmax(100px, auto);
     background-color: #782221 ;
 }
+
+h3+p {
+    text-indent: 10%;
+}
 #p1{
     grid-column: 1 / span 1;
     grid-row: 1;
-    background-color: #782221 ;
+    margin: 5%;
 }
 #p2{
     grid-column: 2 / span 2;
@@ -39,6 +44,7 @@ main {
     background-color: white;
     border-right:1px solid black;
     color:black;
+    padding: 2%;
 }
 
 footer{
@@ -58,4 +64,13 @@ img {
 a {
     text-decoration: none;
     color: white;
+}
+h3 {
+    color: black;
+    background-color: #dbc2a4 ;
+}
+#p1 h3 {
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+    text-indent: 5.5%;
 }
