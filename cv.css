@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     text-align: center;    
-    
+    color: white;
     width: 1160px;
     margin:auto;
 }
@@ -36,6 +36,7 @@ main {
     grid-row: 1 / span 1;
     background-color: white;
     border-right:1px solid black;
+    color:black;
 }
 
 footer{
@@ -43,6 +44,16 @@ footer{
     background-color: #782221 ;
 }
 #photo{
+    width: 200px;
+    height: auto;
     margin-top: 2%;
     clip-path:ellipse(50% 50%);
+}
+img {
+    width: 40px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
